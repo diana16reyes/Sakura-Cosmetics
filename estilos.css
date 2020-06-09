@@ -1,0 +1,127 @@
+.uk-navbar-container:not(.uk-navbar-transparent){
+    background-color:snow;
+    font-weight: bolder;
+}
+
+.maquillaje{
+height: 500px;
+}
+
+.cosmeticos{
+
+font-family: Montserrat;
+color: #273746;
+font-size:30px;
+margin-right: 10px;
+font-weight: 900;
+letter-spacing: normal;
+line-height: 21px;
+
+}
+
+.myboton{
+border-radius: 5rem;
+background-color: lightgoldenrodyellow;
+color: #273746;
+font-family: sans-serif;
+
+}
+
+.myboton:hover{
+
+    background-color: #ecadb9;
+}
+
+.color-letras{
+
+color: #000;
+
+}
+
+.uk-container h3{
+    
+    color:black;
+}
+
+.img1{
+width: 200px;
+height: 300px;
+margin-left: 40px;
+border-radius: 10px;
+}
+
+.uk-position-relative{
+    background-color: thistle;
+}
+
+.uk-transition-active.uk-active [class*=uk-transition-slide]{
+    
+    background-color: beige;
+    
+    opacity: 0.6;
+}
+
+.uk-position-relative h3, p
+{
+    color: #000;
+}
+
+
+.uk-height-medium h1
+{
+    font-size: 77px;
+  
+    color : white;
+    letter-spacing: initial;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+
+.uk-height-medium{
+
+background-color: rgb(216, 191, 216,0.3);
+
+}
+
+
+.uk-height-medium h2{
+color: #1c2833;
+font-family: Georgia, 'Times New Roman', Times, serif;
+letter-spacing: initial;
+font-size: 60px;
+}
+
+
+.face:hover{
+
+color: #4267B2;
+cursor: pointer;
+}
+
+.youtube:hover{
+color: crimson;
+cursor: pointer;
+}
+
+
+.instagram:hover{
+color: #F04183;
+cursor: pointer;
+}
+
+.rotar:hover{
+animation: rotation 5s infinite linear;
+
+}
+
+@keyframes rotation{
+
+from {
+    transform: rotate(0deg);
+}
+
+to{
+transform: rotate(360deg);
+}
+}
